@@ -1,0 +1,53 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: #9dff89;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container, .secret-room {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #4d85ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #adff4e;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.hidden {
+  display: none;
+}
+
+.gift-box {
+  margin-top: 20px;
+  font-size: 24px;
+}
